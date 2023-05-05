@@ -1,0 +1,40 @@
+nav {
+    width: 100%;
+    height: $nav-h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+nav a {
+    text-decoration: none;
+    color: $clr-red;
+    font-weight: 600;
+    font-size: 1.2rem;
+    height: 100%;
+    width: 100%;
+    margin: 0 6px;
+    padding: 12px 10px 4px 10px;
+}
+nav > a {
+    height: 40px;
+    width: min-content;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: min-content;
+    padding: unset;
+    margin: unset;
+}
+nav li {
+    margin: 4px;
+    height: min-content;
+    width: min-content;
+}
